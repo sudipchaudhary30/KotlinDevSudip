@@ -32,7 +32,9 @@ class Signup : AppCompatActivity() {
         Password = findViewById(R.id.Password)
         Submit =findViewById(R.id.ButtonS)
 
-        Submit
+        Submit.setOnClickListener{
+
+        }
 
 
 
