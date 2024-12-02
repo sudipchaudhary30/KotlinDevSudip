@@ -55,7 +55,7 @@ class UserInteractionActivity : AppCompatActivity() {
                 .setMessage("Are you sure?")
                 .setIcon(R.drawable.sony)
                 .setPositiveButton("Yes",DialogInterface.OnClickListener { dialogInterface, i ->
-                    //logout ko logic
+                    //logout ko logic n
                 })
 
 
