@@ -12,13 +12,29 @@ import com.google.android.material.textfield.TextInputLayout
 
 class Signup : AppCompatActivity() {
 
-
+    lateinit var display: TextView
+    lateinit var Displaygg: TextView
+    lateinit var Fname: TextInputLayout
+    lateinit var Lname: TextInputLayout
+    lateinit var Password: TextInputLayout
+    lateinit var Submit: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_signup)
+
+        display = findViewById(R.id.Display)
+        Displaygg = findViewById(R.id.DisplayGG)
+        Fname = findViewById(R.id.FirstName)
+        Lname = findViewById(R.id.LastName)
+        Password = findViewById(R.id.Password)
+        Submit =findViewById(R.id.ButtonS)
+
+        Submit
+
+
 
 
 
