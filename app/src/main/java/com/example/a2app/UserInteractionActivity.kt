@@ -28,7 +28,7 @@ class UserInteractionActivity : AppCompatActivity() {
         buttonAlert = findViewById(R.id.btnAlert)
         buttonSnack = findViewById(R.id.btnSnack)
         buttonToast = findViewById(R.id.btnToast)
-        main = findViewById(R.id.main)
+        main = findViewById(R.id.city)
 
         buttonToast.setOnClickListener{
             Toast.makeText(
@@ -66,7 +66,7 @@ class UserInteractionActivity : AppCompatActivity() {
 
 
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.city)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
